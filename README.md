@@ -1,16 +1,33 @@
-# min
 
-A new Flutter project.
+# Ecommerce-App with Flutter
 
-## Getting Started
+Browse a curated selection of products, complete with details like name, description, images, and prices. Gain in-depth information about each product, including high-quality images, detailed specifications, and user reviews. Seamlessly add and manage items in your cart, with intuitive features for quantity adjustments and review.Securely complete your purchase with smooth integration with a payment gateway (integration required)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Running project
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Add this code to you local by cloneing to you VSCode or android studio(or anu IDE)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+  git clone https://github.com/thadevoosm/Ecommerce-Flutter.git
+```
+
+The main project will be inside the main directory which is 
+
+```bash
+ cd project_name
+```
+Update all the pub and get all .gitignore files, run
+```bash
+ flutter pub get
+```
+Upadate all the pub and fun app in debug
+```bash
+ flutter pub update && flutter run
+```
+For saving it in APK 
+```bash
+flutter build apk --release
+```
+
+
